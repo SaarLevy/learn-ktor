@@ -11,7 +11,7 @@ fun Application.configureRouting() {
     // Starting point for a Ktor app:
     routing {
         get("/") {
-            call.respondText("Hello! I am learning Ktor")
+            call.respondText("Random Change")
         }
     }
     routing {
